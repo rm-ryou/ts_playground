@@ -1,5 +1,6 @@
 import Header from "./components/Header.tsx";
 import CoreConcept from "./components/CoreConcept.tsx";
+import TabButton from "./components/TabButton.tsx";
 
 import { CORE_CONCEPTS } from "./data.ts";
 
@@ -21,6 +22,12 @@ export default function App() {
               );
             })}
           </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabButton>Components</TabButton>
+          </menu>
         </section>
       </main>
     </div>
